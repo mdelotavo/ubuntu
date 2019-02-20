@@ -5,7 +5,7 @@ $ ssh-keygen
 
 Add public key to `authorized_keys`.
 ```sh
-$ cp id_rsa.pub authorized_keys
+$ cat ~/.ssh/id_rsa.pub >> authorized_keys
 ```
 
 Build image.
